@@ -1,0 +1,46 @@
+.
+├── LICENSE
+├── MAINTAINERS
+├── README.md
+├── architecture.excalidraw.png
+├── docker-compose.images.yml
+├── docker-compose.yml
+├── docker-stack.yml
+├── healthchecks
+│   ├── postgres.sh
+│   └── redis.sh
+├── k8s-specifications
+│   ├── db-deployment.yaml
+│   ├── db-service.yaml
+│   ├── redis-deployment.yaml
+│   ├── redis-service.yaml
+│   ├── result-deployment.yaml
+│   ├── result-service.yaml
+│   ├── vote-deployment.yaml
+│   ├── vote-service.yaml
+│   └── worker-deployment.yaml
+├── output.txt
+├── result
+│   ├── Dockerfile
+│   ├── docker-compose.test.yml
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── server.js
+│   ├── tests
+│   └── views
+├── seed-data
+│   ├── Dockerfile
+│   ├── generate-votes.sh
+│   └── make-data.py
+├── vote
+│   ├── Dockerfile
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── static
+│   └── templates
+└── worker
+    ├── Dockerfile
+    ├── Program.cs
+    └── Worker.csproj
+
+11 directories, 33 files
